@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Price Tracker</title>
+    <link rel="stylesheet" href="osc.css">
+</head>
+<body>
+ <header>
+<div class="navbar">
+
+<div class="logo"></div>
+
+<div id="color">WELCOME</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+    
+ </header>
+
+    <main>
+        <div class="main1">
+            <h1 id="s1">Add a Route to Track</h1>
+            <form id="routeForm">
+                <div class="from">
+                    <label>From:</label>
+                    <input id="fromInput" type="text" placeholder="e.g., BLR">
+                </div>
+                <div class="to">
+                    <label>To:</label>
+                    <input id="toInput" type="text" placeholder="e.g., AMD">
+                </div>
+                <div class="date">
+                    <label id="kp1">Date:</label>
+               
+                    <input id="dateInput" type="date">
+                </div>
+                <div class="Alert">
+                    <label>Alert Price (INR):</label>
+                    <input id="alertInput" type="number" placeholder="e.g., 8000">
+                </div>
+                <div class="check">
+                    <button id="addBtn" type="submit">Add & Track</button>
+                </div>
+            </form>
+        </div>
+
+       
+    </main>
+     <div class="table-container">
+            <h2 class="sp2">Tracked Flightprice</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Route</th>
+                        <th>Date</th>
+                        <th>Last Price</th>
+                        <th>Alert ≤</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="routesBody">
+                    </tbody>
+            </table>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

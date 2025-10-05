@@ -1,0 +1,199 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?cs=srgb&dl=pexels-umkreisel-app-956981.jpg&fm=jpg");
+    background-size:100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+ .container{
+     font-size: 6px;
+     width: 40em;
+     height: 40em;
+     position: relative;
+ }
+
+
+.sun{
+    position: fixed;
+    top: 8%;
+    left: 30%;
+    animation: sun 15s linear infinite;
+
+}
+
+@keyframes sun {
+    from{
+        transform: rotateZ(0) scale(0.25)
+    }
+    to{
+        transform: rotateZ(360deg) scale(0.25)
+    }
+}
+
+@keyframes orbitRotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+
+}
+
+.orbit {
+    position: fixed;
+    top: 35%;
+    left: 45.5%;
+    border: 1px dotted gray;
+    border-radius: 50%;
+    transform-origin: center center;
+    animation: orbitRotate 30s linear infinite;
+}
+
+.planet {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.mercury {
+    width: 190px;
+    height: 190px;
+    animation: orbitRotate 68.7s linear infinite;
+}
+
+
+
+.orbit1 {
+    position: fixed;
+    top: 29%;
+    left: 41.5%;
+    border: 1px dotted gray;
+    border-radius: 50%;
+    transform-origin: center center;
+    animation: orbitRotate 30s linear infinite;
+}
+
+.venus {
+    width: 290px;
+    height: 290px;
+    animation: orbitRotate 48.7s linear infinite;
+}
+
+
+
+.orbit2 {
+    position: fixed;
+    top: 23.5%;
+    left: 37.5%;
+    border: 1px dotted gray;
+    border-radius: 50%;
+    transform-origin: center center;
+    animation: orbitRotate 30s linear infinite;
+}
+
+.earth {
+    width: 405px;
+    height: 405px;
+    animation: orbitRotate 36.5s linear infinite;
+}
+
+
+
+.orbit3 {
+    position: fixed;
+    top: 18%;
+    left: 34%;
+    border: 1px dotted gray;
+    border-radius: 50%;
+    transform-origin: center center;
+    animation: orbitRotate 30s linear infinite;
+}
+
+.mars {
+    width: 525px;
+    height: 525px;
+    animation: orbitRotate 26.5s linear infinite;
+}
+
+
+
+.orbit4 {
+    position: fixed;
+    top: 12%;
+    left: 30%;
+    border: 1px dotted gray;
+    border-radius: 50%;
+    transform-origin: center center;
+    animation: orbitRotate 30s linear infinite;
+}
+
+.jupiter {
+    width: 645px;
+    height: 645px;
+    animation: orbitRotate 17s linear infinite;
+}
+
+
+
+.orbit5 {
+    position: fixed;
+    top: 5%;
+    left: 26%;
+    border: 1px dotted gray;
+    border-radius: 50%;
+    transform-origin: center center;
+    animation: orbitRotate 30s linear infinite;
+}
+
+.saturn {
+    width: 775px;
+    height: 775px;
+    animation: orbitRotate 19s linear infinite;
+}
+
+
+
+.orbit6 {
+    position: fixed;
+    top: -1%;
+    left: 22%;
+    border: 1px dotted gray;
+    border-radius: 50%;
+    transform-origin: center center;
+    animation: orbitRotate 30s linear infinite;
+}
+
+.uranus {
+    width: 900px;
+    height: 900px;
+    animation: orbitRotate 15s linear infinite;
+}
+
+
+
+.orbit7 {
+    position: fixed;
+    top: -10%;
+    left: 17%;
+    border: 1px dotted gray;
+    border-radius: 50%;
+    transform-origin: center center;
+    animation: orbitRotate 30s linear infinite;
+}
+
+.neptune {
+    width: 1050px;
+    height: 1050px;
+    animation: orbitRotate 21s linear infinite;
+}

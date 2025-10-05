@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #EEE6CA;
+}
+
+.navbar{
+    height:100px;
+    width:100%;
+    background-color: #D2C1B6;
+    transition: all 2s ease-in  0s;
+    display:flex;
+justify-content: space-evenly;
+  
+}
+
+
+#color{
+    color: #D2C1B6;
+    font-size: 80px;;
+}
+
+main{
+    transition: all 2s ease-in  0s;
+
+}
+
+
+main:hover{
+    background-color: #F87956;
+}
+
+.logo{
+    height:80px;
+    width:100%;
+    background-image: url(my.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+    padding:0;
+    margin:0;
+    position:absolute;
+    top:10px;
+    
+
+}
+
+.navbar:hover{
+    background-color: aqua;
+    color:PINK;
+
+}
+
+#addBtn:hover{
+    background-color: purple;
+
+}
+
+
+
+
+
+
+
+.namaste{
+    font-size: xx-large;
+    position:absolute;
+    left:600px;
+    color:white;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.om{
+    display:flex;
+    flex-direction: column;
+    height:80px;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#hp1{
+ background-image: url(9b9bb731-e1d1-47d0-acea-d86aeb997d33.png);
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    
+
+    
+    
+}
+
+.ks1{
+        font-size: xx-large;
+    position:absolute;
+   right:0px;
+    color:white;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+
+
+
+main {
+    padding: 20px;
+    align-items: center;
+}
+
+
+#s1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #F5FAE1;
+    margin-bottom: 20px;
+}
+
+#routeForm{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-between;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+form div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+form label {
+    font-weight: bold;
+    width: 120px;
+    text-align: right;
+}
+
+form input, form button {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+
+.table-container {
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    animation:all 2s ease-in 0s;
+}
+
+
+.table-container:hover{
+    background-image: url(good.webp);
+    width:100%;
+    background-size: cover;
+    border:3px dashed black;
+    border-radius: 10px;
+}
+
+.sp2 {
+    margin-bottom: 15px;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    padding: 12px;
+}
+
+thead {
+    background-color: #D2C1B6;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+
+td button:first-of-type {
+    background-color: #008CBA; 
+}
+
+td button:last-of-type {
+    background-color: #f44336; 
+}
